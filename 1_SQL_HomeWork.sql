@@ -8,8 +8,8 @@ CREATE TABLE mobile_phones
 	id int PRIMARY KEY auto_increment,
     product_name VARCHAR(20),
     manufacturer VARCHAR(20),
-    product_count MEDIUMINT unsigned DEFAULT 0,
-    price decimal unsigned DEFAULT 0
+    product_count MEDIUMINT unsigned DEFAULT(0),
+    price decimal unsigned DEFAULT(0)
 );
 
 INSERT INTO seminars.mobile_phones (product_name, manufacturer, product_count, price)
