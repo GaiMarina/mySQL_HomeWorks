@@ -6,8 +6,8 @@ USE seminars;
 CREATE TABLE mobile_phones
 (
 	id int PRIMARY KEY auto_increment,
-    product_name VARCHAR(20),
-    manufacturer VARCHAR(20),
+    product_name VARCHAR(20) NOT NULL,
+    manufacturer VARCHAR(20) NOT NULL,
     product_count MEDIUMINT unsigned DEFAULT(0),
     price decimal unsigned DEFAULT(0)
 );
