@@ -5,7 +5,7 @@ CREATE DATABASE seminars;
 USE seminars;
 CREATE TABLE mobile_phones
 (
-	id int unique PRIMARY KEY NOT NULL auto_increment,
+	id int PRIMARY KEY auto_increment,
     product_name VARCHAR(20),
     manufacturer VARCHAR(20),
     product_count MEDIUMINT unsigned DEFAULT 0,
